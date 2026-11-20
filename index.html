@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#171329" />
+    <meta
+      name="description"
+      content="A tiny birthday celebration made especially for Sunidhi."
+    />
+    <title>For Sunidhi — Happy Birthday!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#top">skip to celebration</a>
+    <div class="scroll-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+    <div class="page-glow page-glow--left" aria-hidden="true"></div>
+    <div class="page-glow page-glow--right" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+
+    <main class="shell">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="Back to the beginning">
+          <span class="brand-mark">✦</span>
+          <span>for Sunidhi</span>
+        </a>
+        <div class="nav-meta">
+          <span class="live-dot"><i></i> birthday mode</span>
+          <span class="nav-note">a little celebration, just for you</span>
+        </div>
+      </nav>
+
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> today is your day <span></span></p>
+          <h1>Happy birthday,<br /><em>Sunidhi.</em></h1>
+          <p class="hero-description">
+            Some people make ordinary days feel a little more golden. Today,
+            the golden hour is all yours.
+          </p>
+          <div class="hero-actions">
+            <button class="primary-button" id="surpriseButton" type="button">
+              <span>Open your surprise</span>
+              <span class="button-arrow" aria-hidden="true">↗</span>
+            </button>
+            <span class="button-hint">there’s a note inside ↓</span>
+          </div>
+        </div>
+
+        <div class="birthday-art" id="birthdayArt" aria-label="A birthday cake with candles. Press Enter to make a wish." role="group" tabindex="0">
+          <div class="scene-3d" aria-hidden="true">
+            <div class="orbit orbit--horizontal"></div>
+            <div class="orbit orbit--vertical"></div>
+            <div class="scene-floor"></div>
+            <span class="scene-label">SUNIDHI / 01</span>
+          </div>
+          <div class="orb orb--one"></div>
+          <div class="orb orb--two"></div>
+          <div class="spark spark--one">✦</div>
+          <div class="spark spark--two">✧</div>
+          <div class="spark spark--three">✦</div>
+          <div class="cake-scene">
+            <div class="cake-shadow"></div>
+            <div class="candle candle--one"><span class="flame"></span></div>
+            <div class="candle candle--two"><span class="flame"></span></div>
+            <div class="candle candle--three"><span class="flame"></span></div>
+            <div class="cake cake--top"></div>
+            <div class="cake cake--bottom"></div>
+            <div class="cake-plate"></div>
+            <div class="cake-dot cake-dot--one"></div>
+            <div class="cake-dot cake-dot--two"></div>
+            <div class="cake-dot cake-dot--three"></div>
+          </div>
+          <p class="art-caption">make a wish ✷</p>
+          <button class="wish-button" id="wishButton" type="button">
+            <span class="wish-button-icon">✧</span>
+            <span id="wishButtonText">make a wish</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="wish-section" id="wish">
+        <div class="section-intro">
+          <span class="section-number">01</span>
+          <p>a note for you</p>
+        </div>
+        <div class="letter-wrap">
+          <div class="letter-card" id="letterCard">
+            <div class="letter-topline">
+              <span>dear Sunidhi,</span>
+              <span class="letter-date">with love, always</span>
+            </div>
+            <div class="letter-content">
+              <p class="letter-lead">Today is a reminder of how lovely it is that <span>you exist.</span></p>
+              <p>
+                On your birthday, I hope you pause for a moment and see yourself
+                the way the people who love you do: bright, rare, and impossible
+                to replace. I hope this new trip around the sun brings you slow
+                mornings, belly laughs, good surprises, brave new beginnings,
+                and every beautiful thing you’ve been quietly wishing for.
+              </p>
+              <p class="letter-signoff">Keep shining,<br /><strong>your biggest fan ♡</strong></p>
+            </div>
+            <div class="letter-stamp" aria-hidden="true">S<span>✦</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reasons-section">
+        <div class="section-intro section-intro--center">
+          <span class="section-number">02</span>
+          <p>three things to remember today</p>
+        </div>
+        <div class="reason-grid">
+          <article class="reason-card">
+            <span class="reason-icon">✺</span>
+            <span class="reason-number">01</span>
+            <h2>You are magic.</h2>
+            <p>In all the small, steady ways that make people feel at home.</p>
+          </article>
+          <article class="reason-card reason-card--tall">
+            <span class="reason-icon">☼</span>
+            <span class="reason-number">02</span>
+            <h2>More joy is coming.</h2>
+            <p>The best chapters have a habit of arriving just after you make room for them.</p>
+          </article>
+          <article class="reason-card">
+            <span class="reason-icon">♡</span>
+            <span class="reason-number">03</span>
+            <h2>You are loved.</h2>
+            <p>Today, tomorrow, and on every beautifully ordinary day in between.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="little-things-section" aria-labelledby="littleThingsTitle">
+        <div class="section-intro">
+          <span class="section-number">03</span>
+          <p>the good stuff ahead</p>
+        </div>
+        <div class="little-things-layout">
+          <div class="little-things-copy">
+            <h2 id="littleThingsTitle">A year full of<br /><em>little wonders.</em></h2>
+            <p id="wishText">Here’s to the kind of year that surprises you in the best ways.</p>
+            <button class="wish-generator" id="wishGenerator" type="button">
+              <span>give me a tiny wish</span><span aria-hidden="true">↗</span>
+            </button>
+          </div>
+          <div class="wish-cloud" aria-label="Birthday wishes">
+            <span class="wish-pill wish-pill--one">slow mornings</span>
+            <span class="wish-pill wish-pill--two">big laughs</span>
+            <span class="wish-pill wish-pill--three">new places</span>
+            <span class="wish-pill wish-pill--four">cake for breakfast</span>
+            <span class="wish-pill wish-pill--five">soft surprises</span>
+            <span class="wish-pill wish-pill--six">dreams coming true</span>
+            <span class="wish-cloud-star wish-cloud-star--one">✦</span>
+            <span class="wish-cloud-star wish-cloud-star--two">✧</span>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-line"></div>
+        <p>one more year of being wonderfully <em>you</em>.</p>
+        <button class="replay-button" id="replayButton" type="button">celebrate again <span>↗</span></button>
+      </footer>
+    </main>
+
+    <div class="celebration" id="celebration" aria-live="polite" aria-hidden="true">
+      <div class="celebration-message">
+        <span class="celebration-kicker">a little birthday magic for</span>
+        <h2>Sunidhi<span>!</span></h2>
+        <p id="celebrationWish">May this year be your brightest one yet.</p>
+        <div class="celebration-actions">
+          <button class="close-button" id="closeButton" type="button">close the note</button>
+          <button class="copy-button" id="copyButton" type="button">copy this wish</button>
+          <span class="copy-status" id="copyStatus" aria-live="polite"></span>
+        </div>
+      </div>
+    </div>
+
+    <canvas id="confettiCanvas" aria-hidden="true"></canvas>
+    <script src="script.js"></script>
+  </body>
+</html>
